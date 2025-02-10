@@ -44,4 +44,4 @@ RUN mkdir -p /etc/logto/packages/cli/alteration-scripts && chmod g+w /etc/logto/
 EXPOSE 3001
 ENTRYPOINT ["npm", "run"]
 CMD ["start"]
-RUN npx @logto/cli db alteration deploy 1.23
+RUN npx @logto/cli db alteration deploy 1.20
